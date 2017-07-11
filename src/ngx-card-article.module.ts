@@ -1,6 +1,7 @@
 import { NgxCardArticleComponent } from './ngx-card-article/ngx-card-article.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
     declarations: [
@@ -10,7 +11,8 @@ import { NgModule } from '@angular/core';
         NgxCardArticleComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        BrowserModule
     ]
 })
 export class NgxCardArticleModule {

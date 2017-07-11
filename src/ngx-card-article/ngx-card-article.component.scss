@@ -120,7 +120,7 @@ img {
             letter-spacing: 1px;
             font-family: "Lato";
             &:not(:last-child):after {
-                content: "\25cf";
+                content: "●";
                 font-style: normal;
                 position: relative;
                 color: rgba(white, 0.25);
