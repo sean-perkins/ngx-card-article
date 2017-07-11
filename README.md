@@ -7,7 +7,17 @@
 Beautifully designed cards for use in an Angular 4 project.
 
 1. `npm i ngx-card-article --s`
-2. Add font references to the top of your `index.html`.
+2. Add `NgxCardArticleModule` to your feature module.
+```
+import { NgxCardArticleModule } from 'ngx-card-article';
+
+...
+imports: [
+    NgxCardArticleModule
+]
+...
+```
+3. Add font references to the top of your `index.html`.
 ```
 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300" rel="stylesheet">
