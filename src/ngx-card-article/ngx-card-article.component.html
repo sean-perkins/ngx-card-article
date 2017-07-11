@@ -1,0 +1,17 @@
+<div class="card">
+    <ng-content select="[menu]"></ng-content>
+    <div class="card__image">
+        <img *ngIf="photoUrl" [src]="photoUrl" alt="">
+        <div class="card__overlay" [style.background-image]="backgroundImage">
+            <div class="card__overlay-content">
+                <div class="card__meta">
+                    <ng-content select="[header]"></ng-content>
+                </div>
+                <a class="card__title" [innerText]="title"></a>
+                <div class="card__meta card__meta--last">
+                    <ng-content select="[footer]"></ng-content>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

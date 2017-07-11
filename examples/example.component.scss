@@ -1,0 +1,9 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    ngx-card-article {
+        width: 32%;
+        margin-top:20px;
+    }
+}
