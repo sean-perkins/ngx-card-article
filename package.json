@@ -1,6 +1,6 @@
 {
   "name": "ngx-card-article",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ngx-card-article, an Angular library",
   "main": "./bundles/ngx-card-article.umd.js",
   "jsnext:main": "./ngx-card-article.js",
